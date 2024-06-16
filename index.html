@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager with Authentication</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Task Manager</h1>
+    <div id="authSection">
+      <form id="loginForm">
+        <input type="email" id="email" placeholder="Enter email...">
+        <input type="password" id="password" placeholder="Enter password...">
+        <button type="submit">Login</button>
+      </form>
+      <button id="logoutBtn" style="display: none;">Logout</button>
+    </div>
+    <form id="taskForm" style="display: none;">
+      <input type="text" id="taskInput" placeholder="Enter task...">
+      <button type="submit">Add Task</button>
+    </form>
+    <div class="filter-options" style="display: none;">
+      <button id="filterAll">All</button>
+      <button id="filterCompleted">Completed</button>
+      <button id="filterIncomplete">Incomplete</button>
+    </div>
+    <ul id="taskList" style="display: none;"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

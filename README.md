@@ -11,5 +11,9 @@ To get started with the Task Manager application, follow these steps:
 Make sure you have Node.js and npm (Node Package Manager) installed on your machine.
 
 Run npm install after cloning
-Run npm start in mock-backend folder to start server,
+
+
+Run npm start in mock-backend folder to start server
+
+
 Run npx cypress run in main folder
